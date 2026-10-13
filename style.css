@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #afc7b3;
+    font-family: Arial, sans-serif;
+    color: #103f30;
+}
+
+.container {
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 38px;
+}
+
+.todo-box {
+    padding: 25px;
+    border-radius: 28px;
+    background: #afc7b3;
+    box-shadow:
+        12px 12px 25px #96ae9a,
+        -12px -12px 25px #c8e0cc;
+}
+
+.input-area {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    background: #afc7b3;
+    box-shadow:
+        inset 5px 5px 10px #96ae9a,
+        inset -5px -5px 10px #c8e0cc;
+    font-size: 15px;
+    color: #103f30;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background: #afc7b3;
+    color: #103f30;
+    box-shadow:
+        5px 5px 10px #96ae9a,
+        -5px -5px 10px #c8e0cc;
+}
+
+.add-btn {
+    width: 48px;
+    border-radius: 15px;
+    font-size: 28px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 17px 12px;
+    margin-bottom: 25px;
+    border-radius: 18px;
+    box-shadow:
+        5px 5px 10px #96ae9a,
+        -5px -5px 10px #c8e0cc;
+}
+
+.task span {
+    font-size: 15px;
+    text-align: left;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+}
+
+.actions button {
+    box-shadow: none;
+    font-size: 19px;
+    background: transparent;
+}
+
+.edit-btn {
+    color: #416b5a;
+}
+
+.delete-btn {
+    color: #c84c55;
+}
+
+.clear-btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+@media (max-width: 400px) {
+    .todo-box {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
