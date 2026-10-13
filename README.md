@@ -20,13 +20,6 @@ This project helped me practice JavaScript fundamentals and understand how HTML,
 - JavaScript
 
 
-📷Project Demo
-
-Watch the video demonstration of my To-Do List project
-
-Screenshots/To-Do List.mp4
-
-
 🧿Learning Objects
 - Understand JavaScript functions and variables.
 - Select and manipulate HTML elements using JavaScript.
